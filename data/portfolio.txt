@@ -1,0 +1,176 @@
+Profile
+
+Kunal Sonawane is a Conversational AI Developer, Generative AI Engineer, and Full-Stack Developer specializing in building intelligent, production-ready systems.
+
+He works with platforms such as LivePerson, Dialogflow, IBM Watson, and OpenAI APIs. His expertise includes NLP pipelines, LLM integrations, and end-to-end chatbot deployments across Web, WhatsApp Business API, and mobile platforms.
+
+He focuses on building systems that are fast, reliable, scalable, and user-centric.
+
+Core Expertise
+
+-Conversational AI and NLP systems
+-LLM integrations and Generative AI
+-Chatbot and voice bot development
+-API design and backend integrations
+-Full-stack web development
+-Retrieval-Augmented Generation (RAG) systems
+
+Technologies
+
+Programming Languages
+
+-JavaScript
+-TypeScript
+-Python
+-Node.js
+
+Frontend
+
+-HTML
+-CSS
+-React.js
+-Next.js
+-Bootstrap
+-SASS
+
+Backend & Databases
+
+-Express.js
+-FastAPI
+-MongoDB
+-PostgreSQL
+-SQLite
+
+AI / NLP / LLM
+
+-OpenAI API
+-LangChain
+-Dialogflow CX
+-IBM Watson
+-Rasa
+-LivePerson
+-Sierra.ai
+
+Cloud & Platforms
+
+-Google Cloud (Vertex AI, CCAI)
+-AWS
+-Azure Bot Framework
+-Twilio
+-WhatsApp Business API
+
+Tools
+
+-Git / GitHub
+-Docker
+-FAISS
+-VS Code / PyCharm
+-Figma
+-Visio
+
+
+Professional Experience
+
+
+Software Engineer – Cognitive Developer
+
+EXL | May 2025 – Present | Pune
+
+-Developed a proof of concept for an insurance domain voice and chatbot using Google Agent Development Kit and Dialogflow CX
+-Designed conversational flows for seamless user interaction
+-Integrated Gemini 2.0 Flash for dynamic understanding, summarization, and context-aware responses
+-Implemented APIs to retrieve policy, claims, and customer data
+-Utilized Cloud Functions and Webhooks for backend execution
+-Built a middleware system between Amelia.ai and Blujay for automation testing using AI agents
+
+Software Engineer
+
+Tech Mahindra | April 2023 – May 2025 | Mumbai
+
+-Engineered a Function-as-a-Service (FaaS) solution integrating APIs for automated data retrieval
+-Developed an Auth0-based OTP verification system with 99.9% accuracy
+-Built an agent availability API for seamless customer transfers
+-Integrated SDE data improving chat accuracy by 40% and task completion by 25%
+-Delivered 60+ intent-based chatbots across Web, WhatsApp, SMS, Apple Business Chat, and Mobile Apps
+-Improved engagement by 45% and support efficiency by 30%
+-Built scalable chatbot systems using JavaScript, Node.js, and MongoDB
+-Reduced response times by 40% and received performance recognition 
+
+Associate Software Engineer
+
+Tech Mahindra | January 2022 – April 2023 | Mumbai
+
+-Enhanced NLU capabilities on LivePerson using API integrations
+-Improved response accuracy by 30% and reduced resolution time by 20%
+-Optimized intent recognition and context handling using NLP techniques
+-Built backend integrations using Node.js, Express.js, and MongoDB
+-Increased chatbot performance by 50% and reduced response time by 60%
+-Integrated ChatGPT for personalized conversations, increasing engagement by 50%
+-Improved customer satisfaction by 35% through context-aware responses
+
+
+Projects
+
+
+1.City Fiber Bot
+
+AI chatbot for a UK broadband provider handling customer queries and service flows
+
+-Reduced support tickets by 40%
+-Tech: LivePerson, NLP, Node.js
+
+2.FAQ Bots
+
+Automated FAQ chatbot systems for enterprise clients
+
+-Supports 10+ languages
+-Tech: Dialogflow CX, Python, APIs
+
+3.WhatsApp Chatbot Suite
+
+End-to-end WhatsApp automation for e-commerce
+
+-Features: order tracking, returns, live agent handoff
+-Tech: WhatsApp API, Node.js, Webhooks
+
+4.RAG Portfolio Assistant
+
+Retrieval-Augmented AI assistant trained on portfolio data
+
+-Streams responses via FastAPI
+-Tech: LangChain, FAISS, FastAPI
+
+5.Watson HR Bot
+
+Internal HR assistant for enterprise use
+
+-Handles leave requests, onboarding, and policy queries
+-Tech: IBM Watson, REST APIs
+
+6.Web & UI Projects
+-Digital Services Landing Platform
+-Pet Care Landing Page
+-Travel Landing Page (Wanderlust)
+-Coffee Shop Website (My Coffee Cup)
+-Corporate Business Website
+
+Achievements
+-Delivered 60+ production-grade chatbot solutions
+-Improved engagement, accuracy, and efficiency across multiple systems
+-Recognized for strong problem-solving and AI implementation
+-Built scalable conversational AI systems across multiple platforms
+
+
+Education
+
+-Bachelor of Science in Computer Science
+-Pillai College of Arts, Commerce and Science
+-HSC Harmony Junior College
+-SSC Apeejay School
+
+Personal Information
+Marital Status: Married (12 November 2020)
+Links
+LinkedIn: https://www.linkedin.com/in/kunal-sonawane-41546b1b2/
+GitHub: https://github.com/KunalSonz
+Email: kuksonz98@gmail.com
