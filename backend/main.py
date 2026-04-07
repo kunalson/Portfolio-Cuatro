@@ -23,6 +23,8 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 app = FastAPI()
 
+print("Server starting...")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
