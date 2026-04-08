@@ -1,30 +1,17 @@
 import os
+from dotenv import load_dotenv
+from pydantic import SecretStr
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
 
-# print("CURRENT FILE:", __file__)
-# print("CURRENT DIR:", os.path.dirname(__file__))
-
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# file_path = os.path.join(BASE_DIR, "../../data/portfolio.txt")
-
-# print("FINAL PATH:", file_path)
-# print("EXISTS:", os.path.exists(file_path))
-
-import os
+# Load .env before anything else
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# go up 2 levels safely
 PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))
-
 file_path = os.path.join(PROJECT_ROOT, "data", "portfolio.txt")
-
-print("USING FILE:", file_path)
-
-
 
 def load_vector_db():
     loader = TextLoader(file_path)
@@ -33,7 +20,14 @@ def load_vector_db():
     splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     docs = splitter.split_documents(documents)
 
-    embeddings = HuggingFaceEmbeddings()
+    hf_key = os.getenv("HF_API_KEY")
+    if not hf_key:
+        raise ValueError("HF_API_KEY not found in environment")
+
+    embeddings = HuggingFaceEndpointEmbeddings(
+        model="sentence-transformers/all-MiniLM-L6-v2",
+        huggingfacehub_api_token=hf_key,
+    )
 
     db = FAISS.from_documents(docs, embeddings)
     return db
